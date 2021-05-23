@@ -1,0 +1,35 @@
+* {
+  background-color: dimgray;
+  color: white;
+}
+
+.Titulo {
+  background-color: darkslategray;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.datos {
+  background-color: darkslategray;
+  height: 40px;
+  width: 500px;
+  text-decoration: underline;
+}
+
+.perfil {
+  background-color: darkslategray;
+  height: 30px;
+  width: 500px;
+  text-decoration: underline;
+}
+
+.educacion {
+  background-color: darkslategray;
+  height: 30px;
+  width: 500px;
+  text-decoration: underline;
+}
+
+.basic {
+  text-align: center;
+}

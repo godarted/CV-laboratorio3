@@ -1,0 +1,91 @@
+* {
+  background-color: dimgray;
+  color: white;
+}
+
+.Titulo {
+  background-color: darkslategray;
+  text-decoration: underline;
+  text-align: left;
+  height: fit-content;
+  width: max-content;
+}
+
+.datos {
+  background-color: darkslategray;
+  height: 40px;
+  width: 500px;
+  text-decoration: underline overline;
+  text-decoration-style: double;
+  width: fit-content;
+  height: fit-content;
+}
+
+.perfil {
+  background-color: darkslategray;
+  height: 30px;
+  width: 500px;
+  text-decoration: underline overline;
+  text-decoration-style: double;
+  height: fit-content;
+  width: fit-content;
+}
+
+.educacion {
+  background-color: darkslategray;
+  height: 30px;
+  width: 500px;
+  text-decoration: underline overline;
+  text-decoration-style: double;
+  height: fit-content;
+  width: fit-content;
+}
+
+.basic {
+  background-color: rgb(68, 114, 114);
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  height: fit-content;
+  width: fit-content;
+}
+
+.parrafo1 {
+  background-color: rgb(68, 114, 114);
+  text-align: center;
+}
+
+.laboral {
+  background-color: darkslategray;
+  text-align: left;
+}
+
+.exp {
+  background-color: darkslategray;
+  text-align: center;
+  text-decoration-line: underline overline;
+  text-decoration-style: double;
+  height: fit-content;
+  width: fit-content;
+}
+
+.hab {
+  background-color: darkslategray;
+  text-align: center;
+  text-decoration-line: underline overline;
+  text-decoration-style: double;
+  height: fit-content;
+  width: fit-content;
+}
+
+ul {
+  background-color: rgb(68, 114, 114);
+  padding: 5px;
+  list-style-type: circle;
+  list-style-position: outside;
+}
+
+table tbody tr:hover {
+  background-color: black;
+  color: white;
+}
