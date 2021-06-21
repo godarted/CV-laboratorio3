@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Parte 4</title>
+    <script type="text/javascript">
+    //Ejemplo 2
+    //Desarrollo una aplicacion que permita calcular el sueldo final de un 
+    //trabajador si se sabe que el numero de horas trabajadas se ingresan y el 
+    //costo por hora trabajada tambien se ingresa. Adicional se calculara
+    //una bonificacion de acuerdo a la siguiente tabla:
+    // Categoria      Bonificacion
+    // A              3%
+    // B              5%
+    // C              7%
+    // D              9%
+    //y un descuento del 5% si es que existiera tardanza.
+    //Mostrar todos resultados y utilizar formularios
+    //¿Cuantas variables necesito?
+    //6
+    //¿Que tipo de datos necesito?
+    //Real
+    //¿Cuales serian las variables?
+    //nh,ch, sb, bon, des, sf
+    //¿Que variables voy leer?
+    //nh, ch
+
+    //declarando funciones
+    function CalcularBasico(numh, cosh){
+        return numh*cosh;
+    }
+
+    </script>
+</head>
+<body>
+    <form action="">
+        <label for="txtNh">Numero de horas:</label>
+        <input type="text" name="txtNh" id="txtNh">
+        <br>
+        <label for="txtCh">Costo por hora:</label>
+        <input type="text" name="txtCh" id="txtCh">
+        <br>
+        <label for="txtSb">Sueldo basico:</label>
+        <input type="text" name="txtSb" id="txtSb">
+        <br>
+        <label for="">Categorias:</label>
+        <input type="radio" name="categoria" id="rbA">
+        <br>
+        <label for="rbA">A</label>
+        <input type="radio" name="categoria" id="rbB">
+        <label for="rbB">B</label>
+        <input type="radio" name="categoria" id="rbC">
+        <label for="rbC">C/label>
+        <input type="radio" name="categoria" id="rbD">
+        <label for="rbD">D</label>
+        <input type="radio" name="categoria" id="rbB">
+        <br>
+        <label for="txtBon">Bonificacion:</label>
+        <input type="text" name="txtBon" id="txtBon">
+        <br>
+        <label for="">Tardanzas:</label>
+        <input type="checkbox" name="chkTar" id="chkTar">
+        <label for="chTar">Si</label>
+        <br>
+        <label for="txtDes">Descuento:</label>
+        <input type="text" name="txtDes" id="txtDes">
+        <br>
+        <label for="txtSf">Sueldo Final</label>
+        <input type="text" name="txtSf" id="txtSf">
+        <br>
+        <input type="button" value="calcular" id="btncalcular" name="btncalcular" onclick="Calcular()">
+        <input type="reset" value="Limpiar" id="btnLimpiar" name="btnLimpiar">
+    </form>
+    <a href="index.html">Regresar</a>
+</body>
+</html>
